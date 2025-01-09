@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bar Code Generator</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <style></style>
+</head>
+<body class="w-full h-screen bg-white relative">
+    <div class="absolute w-11/12 mx-auto top-4 h-auto flex flex-col items-center justify-around sm:flex-row sm:justify-center gap-2">
+        <h1 class="sm:absolute sm:left-10 text-3xl font-bold">Bar Code Generator</h1>
+        <div class="w-auto h-10 flex items-center justify-around gap-20">
+            <nav class="hover:underline">Home</nav>
+            <nav class="hover:underline">About</nav>
+            <nav class="hover:underline">Contact</nav>
+        </div>
+    </div>
+    <div class="home w-full h-screen flex items-center justify-center">
+        <div class="sm:w-1/2 h-auto flex items-center justify-center">
+            <canvas class="border-2 border-black w-1/2" id="barcodeCanvas"></canvas>
+        </div>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
